@@ -5,7 +5,8 @@ parar = "sim"
 while parar != "nao":
 
     nome_servidor = input("Nome do servidor: ")
-    tempo_resposta = input("Tempo de resposta: ")
+
+    tempo_resposta = float(input("Tempo de resposta (ms): "))
 
     registro = (nome_servidor,tempo_resposta)
 
